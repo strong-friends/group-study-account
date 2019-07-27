@@ -1,5 +1,5 @@
 # HTML 웹에 Google Login API 적용하기
-
+작성자 : 홍지연
 
 ## 1. Go to the Ggoogle API Console
 
