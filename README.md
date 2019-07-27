@@ -1,14 +1,20 @@
 # 개요
-계정 프로로토타입 제작을 위한 스터디 레파지토리입니다.
+계정 프로로토타입 개발을 위한 스터디 저장소입니다.
+
+## 개발 이슈 히스토리
+* 2019/7/27 - 리뷰 없이 머지가 가능한 상황 발생했음
+	* 원인은 팀 맴버가 모두 관리자로 설정되어 있었기 때문에 구성원의 role(역할)을 맴버 등급으로 변경, 프로젝트 관리를 위해 2 명의 일정 담당자를 별도로 설정 (규식, 주현)
 
 ## 준비 사항
-* [깃허브 데스크탑](https://desktop.github.com/) GIT 형상관리 GUI 도구 (다른 것도 괜찮아요.)
-* 콘솔 에뮬레이터 [Cmder](https://cmder.net/) 명령 프롬프트 (다른 것도 괜찮아요.)
-* [node.js](https://nodejs.org/ko/) LTS 버전 (미설치 시에는 준비하기)
-* Node Package Manager:npm (node.js 설치에 자동 포합됩니다.)
+* GIT 형상관리 지원 도구
+	* [깃허브 데스크탑](https://desktop.github.com/) (다른 것도 괜찮아요)
+* 명령 프롬프트 또는 콘솔 에뮬레이터 
+	* [Cmder](https://cmder.net/) (다른 것도 괜찮아요)
+* [node.js](https://nodejs.org/ko/) LTS 버전
+	* npm: Node Package Manager (node.js 설치하면 자동 포함됩니다)
 
-## 포크하기
-아래의 주소에서 레파지토리를 포크 해주세요.
+## 저장소 클론하기
+아래 주소의 저장소를 클론해 주세요
 ```
 https://github.com/strong-friends/group-study-account
 ```
@@ -24,3 +30,19 @@ npm install
 # 개발 환경 실행
 npm run dev
 ```
+
+## 개발 관련 문서
+__개발 관련 문서는 `docs`에서 관리합니다.__ 해당 폴더의 문서를 참고해서 개발 진행해 주세요.
+
+## 커밋 규칙
+기본 브랜치는 develop을 기준으로 합니다. (master에 직접 커밋 하지 않아요) 자신이 담당한 기능 개발 내용은 develop을 기준으로 브랜치를 추가적으로 생성합니다.
+
+* __브랜치 생성 네이밍 규칙__
+	* 단어 구분은 `-`대쉬를 사용, `_` (언더스코어)는 사용하지 않아요
+	* default(기본) 접두어는 `feature`를 사용
+	```
+	feature/write-document
+	feature/markup
+	```
+* __풀 리퀘스트는 2명의 리뷰어를 선정__
+* 리퀘스트가 정상적으로 __머지된 이후에는 해당 브랜치 삭제__
