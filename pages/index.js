@@ -1,6 +1,7 @@
 const Index = () => (
+  //  이건 주석임
   <div>
-    <p>prototype 테스트 입니다.</p>
+    <p>prototype</p>
   </div>
 );
 
