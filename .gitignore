@@ -70,3 +70,4 @@ yarn-error.log
 
 # Output of 'npm run dev'
 .next/
+.idea/
