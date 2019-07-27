@@ -8,9 +8,9 @@
 * Node Package Manager:npm (node.js 설치에 자동 포합됩니다.)
 
 ## 클론 받기
-아래의 주소를 사용해서 클론 받아주세요.
+아래의 주소에서 레파지토리를 포크해 주세요.
 ```
-https://github.com/strong-friends/group-study-account.git
+https://github.com/strong-friends/group-study-account
 ```
 
 ## 개발 환경 준비하기
