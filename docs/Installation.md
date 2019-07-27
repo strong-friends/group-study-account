@@ -7,10 +7,10 @@
 * [node.js](https://nodejs.org/ko/) LTS 버전 (미설치 시에는 준비하기)
 * Node Package Manager:npm (node.js 설치에 자동 포합됩니다.)
 
-## 클론 받기
-아래의 주소를 사용해서 클론 받아주세요.
+## 포크하기
+아래의 주소를 사용해서 포크 해주세요.
 ```
-https://github.com/strong-friends/group-study-account.git
+https://github.com/strong-friends/group-study-account
 ```
 
 ## 개발 환경 준비하기
