@@ -6,10 +6,14 @@ const Login = withRouter(props => {
 
   return (
     <Layout>
-      <p>{router.query.title}</p>
+      <p>
+        <strong>{router.query.title}</strong>
+      </p>
       <style jsx>{`
       p {
-        color: orange;
+        strong {
+          color: orange;
+        }
       }
       `}</style>
     </Layout>
