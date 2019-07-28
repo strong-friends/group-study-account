@@ -18,7 +18,7 @@
 3. 생성된 OAuth 클라이언트 ID 확인 및 복사
 
 4. 구글 API ID 붙여넣기 & 스크립트 추가
-```
+```html
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
