@@ -1,13 +1,14 @@
-import { withRouter } from 'next/router';
+import { useRouter } from 'next/router';
 import Layout from '../components/Layout';
 
-const Login = withRouter(props => {
-  const { router, url } = props;
+const Login = () => {
+  const router = useRouter();
 
   return (
     <Layout>
       <p>
-        <strong>{router.query.title}</strong>
+        <strong>{router.query.id}</strong>
+        <span>Login Page</span>
       </p>
       <style jsx>{`
       p {
@@ -17,7 +18,7 @@ const Login = withRouter(props => {
       }
       `}</style>
     </Layout>
-  )
-});
+  );
+};
 
 export default Login;
