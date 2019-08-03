@@ -18,7 +18,7 @@ https://github.com/strong-friends/group-study-account
 ```
 
 ### 개발 환경 준비하기
-```
+```bash
 # 터미널 상에서 폴더로 이동합니다.
 cd group-study-account
 
@@ -58,6 +58,10 @@ __개발 관련 문서는 `docs`에서 관리합니다.__ 해당 폴더의 문�
 	* [styled-jsx-plugin-sass](https://www.npmjs.com/package/styled-jsx-plugin-sass)
 
 
-## 개발 이슈 히스토리
+## 참고
+* [frefetching](https://github.com/zeit/next.js/blob/canary/examples/with-prefetching/)
+* [dynamic Routing](https://github.com/zeit/next.js#dynamic-routing)
+
+## 개발 이슈
 * 2019/7/27 - 리뷰 없이 머지가 가능한 상황 발생했음
 	* 원인은 팀 맴버가 모두 관리자로 설정되어 있었기 때문에 구성원의 role(역할)을 맴버 등급으로 변경, 전체 프로젝트 관리를 위해 2명의 일정 담당자를 별도로 설정 (규식, 주현)
