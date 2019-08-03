@@ -2,10 +2,10 @@ import Layout from '../components/Layout';
 import Link from 'next/link';
 
 const A = props => (
-  <Link href="/[id]" as={`/${props.id}`}>
+  <Link prefetch href={`/${props.id}`} as={`/${props.id}`}>
     <a>{props.id}</a>
   </Link>
-);
+)
 
 const Index = () => (
   <Layout>
