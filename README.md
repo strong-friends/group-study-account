@@ -1,34 +1,14 @@
 # 개요
-계정 프로로토타입 개발을 위한 스터디 저장소입니다.
-
+계정 로그인 프로로토타입 개발을 위한 스터디 저장소입니다.
 
 ## 1. 시작하기
-### 준비 사항
+### 최소 준비 사항
 * GIT 형상관리 지원 도구
 	* [깃허브 데스크탑](https://desktop.github.com/) (다른 것도 괜찮아요)
 * 명령 프롬프트 또는 콘솔 에뮬레이터 
 	* [Cmder](https://cmder.net/) (다른 것도 괜찮아요)
 * [node.js](https://nodejs.org/ko/) LTS 버전
 	* npm: Node Package Manager (node.js 설치하면 자동 포함됩니다)
-
-### 저장소 클론하기
-아래 주소의 저장소를 클론해 주세요
-```
-https://github.com/strong-friends/group-study-account
-```
-
-### 개발 환경 준비하기
-```bash
-# 터미널 상에서 폴더로 이동합니다.
-cd group-study-account
-
-# 디펜더시 및 코어 라이브러리 설치
-npm install
-
-# 개발 환경 실행
-npm run dev
-```
-
 
 ## 2. 개발하기
 ### 개발 관련 문서

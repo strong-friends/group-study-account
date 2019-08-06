@@ -12,7 +12,7 @@ const Login = () => {
       </p>
       <style jsx>{`
       p {
-        strong {
+        span {
           color: orange;
         }
       }
